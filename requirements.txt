@@ -1,3 +1,4 @@
+cat > requirements.txt << EOF
 fastapi==0.116.1
 uvicorn[standard]==0.35.0
 numpy==2.2.6
@@ -5,3 +6,4 @@ pandas==2.3.1
 joblib==1.5.1
 scikit-learn==1.6.1
 python-multipart==0.0.20
+EOF
